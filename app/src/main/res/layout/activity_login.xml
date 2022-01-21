@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_home"
+            android:padding="10dp"
+            android:background="@drawable/shape_home"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Travelsos!"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In Continue"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username1"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Username"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login"
+            android:hint="Password"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lupa Password?"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="170dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login1"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="#2548C6"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamu pengguna baru?"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar sekarang"
+            android:textColor="@color/bg_splash"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
